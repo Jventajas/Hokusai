@@ -1,0 +1,94 @@
+# --- IDE / editor ---
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# --- Claude / specs / local docs ---
+CLAUDE.md
+specs/
+.claude/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Package / tooling caches ---
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+pip-wheel-metadata/
+
+# --- JAX / XLA / TPU ---
+*.xla_dump/
+xla_dump/
+jax_cache/
+.jax_cache/
+__jax_compilation_cache__/
+
+# --- ML artifacts: checkpoints, weights, samples ---
+checkpoints/
+ckpt/
+*.ckpt
+*.msgpack
+*.flax
+*.orbax
+*.safetensors
+*.pt
+*.pth
+*.npz
+*.npy
+samples/
+outputs/
+results/
+
+# --- Datasets / large data ---
+data/
+datasets/
+*.tfrecord
+*.tfrecords
+*.parquet
+*.arrow
+*.h5
+*.hdf5
+
+# --- Logs / experiment tracking ---
+logs/
+*.log
+wandb/
+runs/
+tensorboard/
+events.out.tfevents.*
+
+# --- Hugging Face / dataset caches ---
+.cache/
+hf_cache/
+.huggingface/
+
+# --- Secrets / credentials ---
+.env
+*.env
+*.key
+*.pem
+service-account*.json
+gcloud-key*.json
+
+# --- OS ---
+.DS_Store
+Thumbs.db
