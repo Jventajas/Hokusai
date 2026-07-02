@@ -59,8 +59,6 @@ outputs/
 results/
 
 # --- Datasets / large data ---
-data/
-datasets/
 *.tfrecord
 *.tfrecords
 *.parquet
